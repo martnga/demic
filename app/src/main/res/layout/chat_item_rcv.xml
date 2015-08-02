@@ -2,11 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:weightSum="1">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="286dp"
+        android:layout_height="66dp"
         android:id="@+id/v1"
         android:layout_marginRight="@dimen/pad_10dp"
         android:background="@drawable/blue"
@@ -14,7 +15,8 @@
         android:orientation="vertical"
         android:paddingBottom="@dimen/pad_5dp"
         android:paddingLeft="@dimen/pad_chat_item"
-        android:paddingTop="@dimen/pad_5dp">
+        android:paddingTop="@dimen/pad_5dp"
+        android:weightSum="1">
 
         <TextView
             android:layout_width="wrap_content"
@@ -22,7 +24,7 @@
             android:id="@+id/lbl1"
             android:text="TextView"
             android:textColor="@color/main_color_gray_dk"
-            android:textSize="@dimen/txt_13sp"/>
+            android:textSize="@dimen/txt_13sp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,7 +37,7 @@
 
     <TextView
         android:id="@+id/lbl3"
-        android:layout_width="wrap_content"
+        android:layout_width="57dp"
         android:layout_height="wrap_content"
         android:text="text"
         android:textColor="@color/main_color_gray"
@@ -44,6 +46,6 @@
         android:layout_below="@+id/v1"
         android:layout_marginTop="@dimen/pad_5dp"
         android:layout_marginLeft="@dimen/pad_20dp"
-        />
+        android:layout_weight="2.70" />
 
 </LinearLayout>
