@@ -29,13 +29,21 @@
             android:id="@+id/lbl2"
             android:text="text"
             android:textColor="@color/material_blue_grey_800"
-            android:textSize="@dmen/txt_14sp"
+            android:textSize="@dimen/txt_14sp"
             android:maxLines="4"/>
     </LinearLayout>
 
     <TextView
         android:id="@+id/lbl3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textColor="@color/material_blue_grey_800"
+        android:textSize="@dimen/txt_14sp"
+        android:layout_alignRight="@+id/v1"
+        android:layout_below="@+id/v1"
+        android:layout_marginTop="@dimen/pad_5dp"
+        android:layout_marginLeft="@dimen/pad_20dp"
+        />
 
 </LinearLayout>
