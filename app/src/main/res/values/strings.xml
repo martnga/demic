@@ -2,5 +2,6 @@
     <string name="app_name">Wasiliana</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="type_msg">Text goes here</string>
     <string name="action_settings">Settings</string>
 </resources>
