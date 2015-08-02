@@ -7,7 +7,7 @@ import com.parse.Parse;
 /**
  * Created by nganga on 8/2/15.
  */
-public class Wasiliana extends Application{
+public class ChatApp extends Application{
 
     @Override
     public void onCreate() {
