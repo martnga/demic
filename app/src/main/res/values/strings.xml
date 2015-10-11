@@ -3,4 +3,10 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="typeText">Type Message</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="email">Enter Email </string>
 </resources>
