@@ -2,7 +2,7 @@ package org.mansa.parsechat.model;
 
 import java.util.Date;
 
-import com.chatt.demo.UserList;
+import org.mansa.parsechat.UserList;
 
 /**
  * The Class Conversation is a Java Bean class that represents a single chat

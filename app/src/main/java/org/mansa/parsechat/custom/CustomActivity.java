@@ -5,8 +5,8 @@ import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import com.chatt.demo.R;
-import com.chatt.demo.utils.TouchEffect;
+import org.mansa.parsechat.R;
+import org.mansa.parsechat.utils.TouchEffect;
 
 /**
  * This is a common activity that all other activities of the app can extend to
