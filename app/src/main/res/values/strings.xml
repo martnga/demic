@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Wasiliana</string>
+    <string name="app_name">Demic</string>
     <string name="type_msg">Type message</string>    
     
 <string name="drawer_open">Open</string>
